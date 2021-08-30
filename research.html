@@ -1,0 +1,31 @@
+---
+layout: default
+title: Research – Subsystematics
+permalink: /research
+---
+
+<div class="research_wrapper">
+    <div class="researchcontent">
+        <div class="postsloop">
+            {% for post in site.categories.research %}
+            <div class="posts_card">
+                <div class="post_number">
+                    <h3>
+                        {{ post.letter }}
+                    </h3>
+                </div>
+                <div class="post_title">
+                    <h3>
+                        <a class="letter" href="{{ post.url }}">{{ post.title }}</a>
+                    </h3>
+                </div>
+                <div class="post_date">
+                    <h5>
+                        {{ post.pdate }}
+                    </h5>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

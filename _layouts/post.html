@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/assets/css/site.css">
+        <title>{{ page.title }}</title>
+    </head>
+    <body>
+        {% include header.html %}
+        <section>
+            <div class="post_letter">
+                <h3>
+                    {{ page.letter }}
+                </h3>
+            </div>
+            <div class="post_heading">
+                <h1>
+                    {{ page.title }}
+                </h1>
+            </div>
+            <div class="post_subtitle">
+                <h2>
+                    {{ page.subtitle }}
+                </h2>
+            </div>
+            <div class="postwrapper">
+                <div class="post_content">
+                    <p>
+                        {{ content }}
+                    </p>
+                </div>
+                <div class="intro_card">
+                    <p>
+                        <span class="smallcaps"><a href="http://www.instagram.com/subsystematics">subsystematics</a></span> is a independent well-being company founded in Australia in 2020. We develop utilitarian products for the skin and mind based on sound research and holistic principles.  
+                    </p>
+                </div>
+                <div class="backtohome">
+                    <p>Return to <a href="/research">Research</a> / <a href="/">Index</a></p>
+                </div>
+            </div>
+        </section>
+        {% include footer.html %}
+        <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=UdcpSi"></script>
+    </body>
+</html>
