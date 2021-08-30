@@ -398,6 +398,8 @@ footer {
     body {
         line-height: 1.2;
         margin: 24px auto 48px auto;
+        max-width: 380px;
+        margin: 0px auto 8px auto;
     }
 
     h1 {
@@ -421,10 +423,10 @@ footer {
         color: grey;
     }
 
-    body section {
-        max-width: 380px;
-        margin: 0px auto 8px auto;
-    }
+    // body section {
+    //     max-width: 380px;
+    //     margin: 0px auto 8px auto;
+    // }
 
     .home_logo {
         max-width: 144px;
