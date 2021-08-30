@@ -27,13 +27,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: subsystematics
 github_username:  aslvm
 
-kramdown:
-  	  footnote_backlink: "&#8617;&#xfe0e;"
-
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+kramdown:
+  	  footnote_backlink: "&#8617;&#xfe0e;"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
