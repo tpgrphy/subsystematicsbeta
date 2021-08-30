@@ -230,6 +230,7 @@ footer {
 // Layout for Post
 
 .post_letter {
+
     h3 {
         text-decoration: none;
         font-size: 14px;
@@ -257,6 +258,10 @@ footer {
     }
 
     text-align: center;
+}
+
+.postwrapper {
+    margin-top: 80px;
 }
 
 // Post Content
@@ -442,7 +447,7 @@ footer {
     }
 
     .home_mobile {
-        max-width: 360px;
+        max-width: 340px;
     }
 
     .home_content {
@@ -500,6 +505,10 @@ footer {
 
     .post_subtitle h2 {
             font-size: 11px;
+    }
+
+    .postwrapper {
+        margin-top: 40px;
     }
 
     .post_content {
