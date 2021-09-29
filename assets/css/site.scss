@@ -440,6 +440,16 @@ footer {
     margin-bottom: 8px;
   }
 
+  .land_heroimage em {
+    font-style: normal;
+    color: grey;
+    font-size: 11px;
+    display: block;
+    text-align: center;
+    margin: 2px auto 4px auto;
+    max-width: 400px;
+}
+
 .land_block2 {
     display: flex;
     flex-wrap: nowrap;
