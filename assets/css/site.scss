@@ -467,7 +467,7 @@ footer {
 
     body {
         line-height: 1.2;
-        margin: 24px auto 48px 2px;
+        margin: 24px auto 48px auto;
         position: relative
     }
 
@@ -478,7 +478,7 @@ footer {
 
     header {
         max-width: 360px;
-        margin: 0px auto 12px 2px;
+        margin: 0px auto 12px auto;
         padding-bottom: 24px;
         border-bottom: solid 1px $coolgray;
     }
@@ -497,7 +497,7 @@ footer {
 
     body section {
         max-width: 360px;
-        margin: 0px auto 40px 8px;
+        margin: 0px auto 40px auto;
     }
 
     .home_logo {
@@ -537,7 +537,7 @@ footer {
 
     footer {
         margin-top: 8px;
-        margin-bottom: 24px;
+        margin-bottom: 4px;
         font-size: 9px;
     }
 
