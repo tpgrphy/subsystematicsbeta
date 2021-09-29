@@ -391,11 +391,24 @@ footer {
     margin: 24px auto 0px auto;
     text-align: left;
     font-size: 12px;
+    font-weight: 300;
 }
+
+.contact_wrapper a {
+    text-decoration: none;
+    color: gray;
+    transition: color .2s;;
+}
+
+.contact_wrapper a:hover {
+    color: $black;
+}
+
+
 
 .contact_wrapper h2 {
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .land_col1, .land_col2, .land_col3 {
