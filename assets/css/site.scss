@@ -467,7 +467,7 @@ footer {
 
     body {
         line-height: 1.2;
-        margin: 24px auto 48px 8px;
+        margin: 24px auto 48px 2px;
         position: relative
     }
 
@@ -477,8 +477,8 @@ footer {
     }
 
     header {
-        max-width: 440px;
-        margin: 0px auto 12px 8px;
+        max-width: 360px;
+        margin: 0px auto 12px 2px;
         padding-bottom: 24px;
         border-bottom: solid 1px $coolgray;
     }
@@ -496,7 +496,7 @@ footer {
     }
 
     body section {
-        max-width: 440px;
+        max-width: 360px;
         margin: 0px auto 40px 8px;
     }
 
@@ -510,7 +510,7 @@ footer {
     }
 
     .land_mobile {
-        max-width: 400px;
+        max-width: 360px;
         text-align: center;
         font-weight: 300;
 
@@ -524,7 +524,7 @@ footer {
     }
     
     .land_heroimage img {
-        max-width: 400px;
+        max-width: 360px;
     }
 
     .land_col {
